@@ -1,4 +1,4 @@
-#include <DijitalMultimetre.h>
+#include <DigitalMultimeter.h>
 #include <74595.c>
 #use fast_io(B)
 #define NUMBER_OF_74595 3

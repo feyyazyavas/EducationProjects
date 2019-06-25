@@ -1,4 +1,4 @@
-#include <BLDC-Kod.h>
+#include <BLDC-MotorControl.h>
 
 #define x1 PIN_D0
 #define x0 PIN_D1
