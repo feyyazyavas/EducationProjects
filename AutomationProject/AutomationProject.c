@@ -69,21 +69,21 @@ int pin1=false;
 #int_RB
 void  Sensor_Interrupt()
 {   
-   if((input(Sensor1_Pin) == 0))
+   if((input(Sensor1_Pin) == 1))
    {
       t1=0;
       output_high(Output1);
       sensor1Activity = true;
    }
    
-   if((input(Sensor2_Pin) == 0))
+   if((input(Sensor2_Pin) == 1))
    {
       t2=0;
       output_high(Output2);
       sensor2Activity = true;
    }
    
-   if((input(Sensor3_Pin) == 0))
+   if((input(Sensor3_Pin) == 1))
    {
       t3=0;
       output_high(Output3);
